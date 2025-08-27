@@ -1,5 +1,5 @@
-# R Code Youtube Project
-## Hello, this is my first personal project for data analysis using R programming langauge. 
+# R_Code_Youtube_Project
+## Hello, this is my first personal project for data analysis using R programming langauge. The script is taking on how the dislike count is important to Youtube.
 I used a dataset from Kaggle, https://www.kaggle.com/datasets/datasnaek/youtube-new?select=USvideos.csv 
 that has youtube videos back when the dislike count could be seen. I was able to clean the dataset, 
 removing repeating rows, and relist items based on a proportion of views to likes. I created this list under the column "interaction". I wanted to point 
