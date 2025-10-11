@@ -10,8 +10,3 @@ removed so I tried seeing if likes to views would give me any insight on the rel
 
 ### 🔗 [View the Live Report](https://nmfisher716.github.io/R_youtube_project/Youtube_projectNF.html)
 
-<p align="center">
-  <a href="https://nmfisher716.github.io/R_youtube_project/Youtube_projectNF.html" target="_blank">
-    <img src="https://img.shields.io/badge/View%20Live%20Report-blue?style=for-the-badge&logo=github" alt="View Live Report">
-  </a>
-</p>
