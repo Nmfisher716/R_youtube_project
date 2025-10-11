@@ -8,5 +8,5 @@ out the necessary function of seeing the dislike count. Before the removal, To t
 I used to use proportion too distinguish reliable videos to fake videos(e.g. videos that made me feel uneasy or lead me in a wrongful direction). But now the dislike button is 
 removed so I tried seeing if likes to views would give me any insight on the reliability of a youtube video. 
 
-### 🔗 [View the Live Report](https://nmfisher716.github.io/R_youtube_project/Youtube_projectNF.html)
+### 🔗 [View Final Project in HTML](https://nmfisher716.github.io/R_youtube_project/Youtube_projectNF.html)
 
