@@ -10,3 +10,6 @@ removed so I tried seeing if likes to views would give me any insight on the rel
 
 ### 🔗 [View Final Project in HTML](https://nmfisher716.github.io/R_youtube_project/Youtube_projectNF.html)
 
+Project Variables:
+| bt_data$interaction |is the ratio of likes over views. If interaction is closer to zero, it could be determined the likes are not as popular. 
+
