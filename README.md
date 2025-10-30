@@ -30,3 +30,4 @@ This is a personal project I completed during the **summer of 2025** to strength
 - **Dislike proportion appears lower in 2017–2018 vs. earlier years.**  
 - For 2017–2018, **typical dislike share per video is ~6–7%**.
 
+### 🔗 [View Final Project in HTML](https://nmfisher716.github.io/R_youtube_project/Youtube_projectNF.html)
