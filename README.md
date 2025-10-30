@@ -10,6 +10,10 @@ removed so I tried seeing if likes to views would give me any insight on the rel
 
 ### 🔗 [View Final Project in HTML](https://nmfisher716.github.io/R_youtube_project/Youtube_projectNF.html)
 
-Project Variables:
-| bt_data$interaction |is the ratio of likes over views. If interaction is closer to zero, it could be determined the likes are not as popular. 
+| Variable | Description |
+|-----------|-------------|
+| `bt_data$interaction` | Ratio of likes over views. If the interaction is closer to zero, it suggests the video received relatively few likes compared to its views. |
+| `bt_data$likes_diff` | Difference between likes and dislikes. This indicates whether likes or dislikes outweigh each other. |
+| `bt_data$dislike_ratio` | Proportion of dislikes per observation, calculated as dislikes divided by the total of likes and dislikes. |
+
 
