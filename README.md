@@ -16,4 +16,24 @@ removed so I tried seeing if likes to views would give me any insight on the rel
 | `bt_data$likes_diff` | Difference between likes and dislikes. This indicates whether likes or dislikes outweigh each other. |
 | `bt_data$dislike_ratio` | Proportion of dislikes per observation, calculated as dislikes divided by the total of likes and dislikes. |
 
+### What to Look For
+- **Part 1 — Data + Packages:** Source (Kaggle USvideos.csv) and initial structure check (40,949 rows, 16 columns).  
+- **Part 2 — Cleaning Steps:** Duplicate removal, filtering out disabled ratings/comments, and creating key features:
+  - `interaction` = likes / views  
+  - `likes_diff` = likes − dislikes  
+  - `dislike_ratio` = dislikes / (likes + dislikes)  
+  Final analysis set: **6,354 rows** and **10 variables** (after cleaning and feature engineering).
+- **Part 3 — Analyses:**
+  1) **Low-Interaction Videos:** Table of examples where likes are very small relative to views—shows why “few likes” ≠ “disliked content.”  
+  2) **Most Disliked Video (by likes_diff):** *“PSA from Chairman of the FCC Ajit Pai”* surfaces as the largest gap favoring dislikes.
+- **Part 4 — Deeper Dive (By Year):** Groups videos into **2016 & before**, **2017**, **2018** and compares average dislike percentage:
+  - 2016 & before: **10.95%**  
+  - 2017: **7.09%**  
+  - 2018: **6.31%**
+- **Confidence Interval (Bootstrap, 20,000 reps):** For videos in **2017–2018**, the mean `dislike_ratio` is **0.0658**, with a **95% CI ~ [0.063, 0.068]**.
+
+### Key Takeaways
+- **“Low likes” does not automatically mean “disliked”**—dislikes data clarifies sentiment.  
+- **Dislike proportion appears lower in 2017–2018 vs. earlier years.**  
+- For 2017–2018, **typical dislike share per video is ~6–7%**.
 
