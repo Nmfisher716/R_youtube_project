@@ -1,6 +1,5 @@
 ## 📄 Project Summary — YouTube Dislikes Analysis
-
-**Full report:** [Youtube_projectNF.html](https://nmfisher716.github.io/R_youtube_project/Youtube_projectNF.html)
+This is a personal project I completed during the **summer of 2025** to strengthen my skills in **data cleaning, visualization, and statistical analysis using R**. The project explores patterns in YouTube engagement—specifically, how likes, dislikes, and views relate to one another. I used the Kaggle “USvideos.csv” dataset, performed feature engineering, and built interactive visuals and summary statistics to uncover trends in user interaction and sentiment. The full HTML report provides a detailed walkthrough of my workflow, analysis, and insights.
 
 ### 🔗 [View Final Project in HTML](https://nmfisher716.github.io/R_youtube_project/Youtube_projectNF.html)
 
